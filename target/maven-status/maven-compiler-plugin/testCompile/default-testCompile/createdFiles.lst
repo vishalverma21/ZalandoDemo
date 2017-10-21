@@ -1,0 +1,3 @@
+com\zalando\stepDefinitions\ui\home\ZalandoStepDef.class
+com\zalando\runner\RunTest.class
+com\zalando\stepDefinitions\ui\common\LoginFeatureStepDef.class
