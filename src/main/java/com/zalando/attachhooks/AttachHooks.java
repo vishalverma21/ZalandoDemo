@@ -31,7 +31,7 @@ public class AttachHooks {
 		System.out.println(scenario.getName());
 
 		if (ConfigManager.getProperty("browserName").equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--disable-extensions");
 			driver = new ChromeDriver(options);

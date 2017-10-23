@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin={"pretty","json:target/cucumberreports.json"},
 glue = "com.zalando", 
-features = "src\\test\\resources\\features",
+features = "src/test/resources/features",
 dryRun = false,
 
 tags={"@zalando"},
