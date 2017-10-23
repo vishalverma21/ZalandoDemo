@@ -50,7 +50,7 @@ If you’re on Fedora for example (or any closely-related RPM-based distro such 
 If you’re on a Debian-based distribution like Ubuntu, try apt-get:
 ##### $ sudo apt-get install git-all
 
-Install Mavan
+Install Maven
 #### $ sudo apt-get install maven
 
 1. Clone the project from below location:
