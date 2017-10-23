@@ -14,10 +14,16 @@ Please follow below instruction to copy the project and running on your local ma
 
 #### Prerequisites
 
-Maven home: D:\apache-maven-3.5.0
+Maven home: apache-maven-3.5.0
+
 Java version: 1.8.0_65, vendor: Oracle Corporation
+
 Chrome version: Version 61.0.3163.100 (Official Build) (64-bit)
-Git Bash - optional
+
+Git Bash
+
+###### Remove negative test cases from feature file for successful build
+###### Item should not already be in wish list
 
 # Running the tests
 
@@ -36,18 +42,22 @@ Then step definition file calls main zalando page file in which all methods are 
 
 ### Linux Machine
 
-If you’re on Fedora for example (or any closely-related RPM-based distro such as RHEL or CentOS), you can use below command to install Git:
+If youâ€™re on Fedora for example (or any closely-related RPM-based distro such as RHEL or CentOS), you can use below command to install Git:
 ##### $ sudo dnf install git-all
 
-If you’re on a Debian-based distribution like Ubuntu, try apt-get:
+If youâ€™re on a Debian-based distribution like Ubuntu, try apt-get:
 ##### $ sudo apt-get install git-all
+
+Install Mavan
+#### $ sudo apt-get install maven
 
 1. Clone the project from below location:
 
-git clone https://github.com/globus/automation-examples
+https://github.com/vishalverma21/ZalandoDemo.git
 
 2. Go to source folder in local machine
-cd ZalandoDemo
 
-3. Run " mvn test " command in your maven or git bash
+ZalandoDemo
+
+3. Run " mvn test " command in source folder " ZalandoDemo " from your maven or git bash
 mvn test
