@@ -23,7 +23,7 @@ Chrome version: Version 61.0.3163.100 (Official Build) (64-bit)
 Git Bash
 
 If you are running this code in windows then please update chrome driver in AttachHooks like below :
-System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\chromedriver.exe");
+System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver.exe");
 ###### Remove negative test cases from feature file for successful build
 ###### Item should not already be in wish list
 
