@@ -1,6 +1,0 @@
-com\zalando\ui\home\page\ZalandoPage.class
-com\zalando\common\pages\LoginPage.class
-com\zalando\common\utils\ConfigManager.class
-com\zalando\common\pages\BasePage.class
-com\zalando\ui\home\objectrepository\ZalandoLocator.class
-com\zalando\attachhooks\AttachHooks.class
